@@ -57,6 +57,9 @@ The API documentation is available at `/api-docs` when the server is running. It
 
 ### Main Endpoints
 
+### Swagger API View
+- GET /api-docs
+
 #### Authentication
 - POST /api/auth/signup - Create new user account
 - POST /api/auth/login - User login
