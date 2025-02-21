@@ -1,0 +1,105 @@
+.quest-card {
+  background-color: #1e2028;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.card-image {
+  position: relative;
+  height: 200px;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 96px;
+  background: linear-gradient(to top, #1e2028, transparent);
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+.promoter {
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.title {
+  color: #a78bfa;
+  margin: 1rem 0 0.5rem;
+  font-size: 1rem;
+}
+
+.reward-section {
+  display: flex;
+  gap: 0.75rem;
+  margin: 1rem 0;
+}
+
+.reward-icon {
+  display: flex;
+  width: 48px;
+  height: 48px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.reward-info {
+  flex: 1;
+}
+
+.reward-name {
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.claim-date,
+.description {
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.ended-message {
+  text-align: center;
+  padding: 0.5rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.card-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: opacity 0.2s;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.button.primary {
+  background-color: #a78bfa;
+  color: white;
+}
+
+.button.secondary {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
